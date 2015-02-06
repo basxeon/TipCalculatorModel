@@ -13,6 +13,8 @@
 		FD880C571A8495F000E80A7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD880C561A8495F000E80A7D /* Images.xcassets */; };
 		FD880C5A1A8495F000E80A7D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD880C581A8495F000E80A7D /* LaunchScreen.xib */; };
 		FD880C661A8495F000E80A7D /* TipCalculatorModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD880C651A8495F000E80A7D /* TipCalculatorModelTests.swift */; };
+		FD880C701A84A80800E80A7D /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD880C6F1A84A80800E80A7D /* TipCalculatorModel.swift */; };
+		FD880CB41A84CB5500E80A7D /* dota2-rekindling-soul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD880CB31A84CB5500E80A7D /* dota2-rekindling-soul.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FD880C5F1A8495F000E80A7D /* TipCalculatorModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD880C641A8495F000E80A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD880C651A8495F000E80A7D /* TipCalculatorModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorModelTests.swift; sourceTree = "<group>"; };
+		FD880C6F1A84A80800E80A7D /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		FD880CB31A84CB5500E80A7D /* dota2-rekindling-soul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dota2-rekindling-soul.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				FD880C4F1A8495F000E80A7D /* AppDelegate.swift */,
 				FD880C511A8495F000E80A7D /* ViewController.swift */,
+				FD880C6F1A84A80800E80A7D /* TipCalculatorModel.swift */,
 				FD880C531A8495F000E80A7D /* Main.storyboard */,
 				FD880C561A8495F000E80A7D /* Images.xcassets */,
 				FD880C581A8495F000E80A7D /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		FD880C4D1A8495F000E80A7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD880CB31A84CB5500E80A7D /* dota2-rekindling-soul.jpg */,
 				FD880C4E1A8495F000E80A7D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				FD880C551A8495F000E80A7D /* Main.storyboard in Resources */,
 				FD880C5A1A8495F000E80A7D /* LaunchScreen.xib in Resources */,
+				FD880CB41A84CB5500E80A7D /* dota2-rekindling-soul.jpg in Resources */,
 				FD880C571A8495F000E80A7D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD880C701A84A80800E80A7D /* TipCalculatorModel.swift in Sources */,
 				FD880C521A8495F000E80A7D /* ViewController.swift in Sources */,
 				FD880C501A8495F000E80A7D /* AppDelegate.swift in Sources */,
 			);
